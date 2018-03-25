@@ -1,0 +1,10 @@
+name: Play
+main: ru.foxit.grayfox.Lesson4.Main
+version: 1.4
+commands:
+   heal:
+      usage:
+      description: desc
+   info:
+      usage:
+      description: desc
