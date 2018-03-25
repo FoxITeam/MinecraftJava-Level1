@@ -99,14 +99,16 @@ public class Handler implements Listener { // Делаем класс Handler с
     // дз - реализовать метод, который делает следующее:
     // Если у игрока любой предмет в руке и он кликает правой клавишей мыши по сундуку, предмет забирают с инвентаря
     // и он появляется в сундуке.
-//    public void events(PlayerInteractEvent event){
+//    public void events(PlayerInteractEvent event) {
 //        Action action = event.getAction(); // Создаем/вызываем действия игрока
 //        Player player = event.getPlayer(); // Вызываем плеера
 //        ItemStack item = player.getItemInHand(); // Для определение, что в руке есть.
 //
-//        if (action == Action.RIGHT_CLICK_BLOCK && event.getClickedBlock().getType() == Material.CHEST){
-//
+//        if (action == Action.RIGHT_CLICK_BLOCK && event.getClickedBlock().getType() == Material.CHEST) {
+//            item.setAmount(item.getAmount() - 1);//Уменьшаем его кол-во на один.
+//            player.setItemInHand(item);
 //            player.sendMessage("Доделай меня");
 //        }
+//
 //    }
 }
